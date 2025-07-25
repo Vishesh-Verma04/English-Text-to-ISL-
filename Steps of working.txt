@@ -1,0 +1,7 @@
+The dataset contains frames and images of the gesture with associated words. 
+The project works at 3 levels : 
+1. at sentence level
+2. at word level
+3. at alphabet level
+
+At first when the English prompt is given, the model searches for the exact match in the sentence level data and if match found then it displays the gesture frame by frame. If not then the sentence is converted into ISL format ,i.e., from SVO to SOV , and then the searching begins at word level. If found then suitable image is displayed on the screen, else the word is broken into letters and displayed.
